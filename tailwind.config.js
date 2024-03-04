@@ -1,6 +1,7 @@
-/** @type {import('tailwindcss').Config} */
+const path = require('path');
+
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["index.html", "./src/**/*.{html,js}"], // Menambahkan "index.html" di sini
   theme: {
     extend: {},
   },
